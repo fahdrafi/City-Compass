@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98F8D50F1418D34B001F9E1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8D50E1418D34B001F9E1E /* UIKit.framework */; };
+		98F8D5111418D34B001F9E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8D5101418D34B001F9E1E /* Foundation.framework */; };
+		98F8D5131418D34B001F9E1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8D5121418D34B001F9E1E /* CoreGraphics.framework */; };
+		98F8D5191418D34B001F9E1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98F8D5171418D34B001F9E1E /* InfoPlist.strings */; };
+		98F8D51B1418D34B001F9E1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8D51A1418D34B001F9E1E /* main.m */; };
+		98F8D51F1418D34B001F9E1E /* City_CompassAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8D51E1418D34B001F9E1E /* City_CompassAppDelegate.m */; };
+		98F8D5221418D34B001F9E1E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98F8D5201418D34B001F9E1E /* MainWindow.xib */; };
+		98F8D5251418D34C001F9E1E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8D5241418D34C001F9E1E /* FirstViewController.m */; };
+		98F8D5281418D34C001F9E1E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8D5271418D34C001F9E1E /* SecondViewController.m */; };
+		98F8D52B1418D34C001F9E1E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98F8D5291418D34C001F9E1E /* FirstView.xib */; };
+		98F8D52E1418D34C001F9E1E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98F8D52C1418D34C001F9E1E /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98F8D50A1418D34B001F9E1E /* City Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F8D50E1418D34B001F9E1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98F8D5101418D34B001F9E1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98F8D5121418D34B001F9E1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98F8D5161418D34B001F9E1E /* City Compass-Info.plist */ = {isa = PBXFileReference; path = "City Compass-Info.plist"; sourceTree = "<group>"; };
+		98F8D5181418D34B001F9E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98F8D51A1418D34B001F9E1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98F8D51C1418D34B001F9E1E /* City Compass-Prefix.pch */ = {isa = PBXFileReference; path = "City Compass-Prefix.pch"; sourceTree = "<group>"; };
+		98F8D51D1418D34B001F9E1E /* City_CompassAppDelegate.h */ = {isa = PBXFileReference; path = City_CompassAppDelegate.h; sourceTree = "<group>"; };
+		98F8D51E1418D34B001F9E1E /* City_CompassAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City_CompassAppDelegate.m; sourceTree = "<group>"; };
+		98F8D5211418D34B001F9E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		98F8D5231418D34C001F9E1E /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		98F8D5241418D34C001F9E1E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		98F8D5261418D34C001F9E1E /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		98F8D5271418D34C001F9E1E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		98F8D52A1418D34C001F9E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		98F8D52D1418D34C001F9E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98F8D5071418D34B001F9E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F8D50F1418D34B001F9E1E /* UIKit.framework in Frameworks */,
+				98F8D5111418D34B001F9E1E /* Foundation.framework in Frameworks */,
+				98F8D5131418D34B001F9E1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98F8D4FF1418D34A001F9E1E = {
+			isa = PBXGroup;
+			children = (
+				98F8D5141418D34B001F9E1E /* City Compass */,
+				98F8D50D1418D34B001F9E1E /* Frameworks */,
+				98F8D50B1418D34B001F9E1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98F8D50B1418D34B001F9E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98F8D50A1418D34B001F9E1E /* City Compass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98F8D50D1418D34B001F9E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98F8D50E1418D34B001F9E1E /* UIKit.framework */,
+				98F8D5101418D34B001F9E1E /* Foundation.framework */,
+				98F8D5121418D34B001F9E1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98F8D5141418D34B001F9E1E /* City Compass */ = {
+			isa = PBXGroup;
+			children = (
+				98F8D51D1418D34B001F9E1E /* City_CompassAppDelegate.h */,
+				98F8D51E1418D34B001F9E1E /* City_CompassAppDelegate.m */,
+				98F8D5201418D34B001F9E1E /* MainWindow.xib */,
+				98F8D5231418D34C001F9E1E /* FirstViewController.h */,
+				98F8D5241418D34C001F9E1E /* FirstViewController.m */,
+				98F8D5261418D34C001F9E1E /* SecondViewController.h */,
+				98F8D5271418D34C001F9E1E /* SecondViewController.m */,
+				98F8D5291418D34C001F9E1E /* FirstView.xib */,
+				98F8D52C1418D34C001F9E1E /* SecondView.xib */,
+				98F8D5151418D34B001F9E1E /* Supporting Files */,
+			);
+			path = "City Compass";
+			sourceTree = "<group>";
+		};
+		98F8D5151418D34B001F9E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98F8D5161418D34B001F9E1E /* City Compass-Info.plist */,
+				98F8D5171418D34B001F9E1E /* InfoPlist.strings */,
+				98F8D51A1418D34B001F9E1E /* main.m */,
+				98F8D51C1418D34B001F9E1E /* City Compass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98F8D5091418D34B001F9E1E /* City Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F8D5311418D34C001F9E1E /* Build configuration list for PBXNativeTarget "City Compass" */;
+			buildPhases = (
+				98F8D5061418D34B001F9E1E /* Sources */,
+				98F8D5071418D34B001F9E1E /* Frameworks */,
+				98F8D5081418D34B001F9E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "City Compass";
+			productName = "City Compass";
+			productReference = 98F8D50A1418D34B001F9E1E /* City Compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F8D5011418D34A001F9E1E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 98F8D5041418D34A001F9E1E /* Build configuration list for PBXProject "City Compass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98F8D4FF1418D34A001F9E1E;
+			productRefGroup = 98F8D50B1418D34B001F9E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98F8D5091418D34B001F9E1E /* City Compass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98F8D5081418D34B001F9E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F8D5191418D34B001F9E1E /* InfoPlist.strings in Resources */,
+				98F8D5221418D34B001F9E1E /* MainWindow.xib in Resources */,
+				98F8D52B1418D34C001F9E1E /* FirstView.xib in Resources */,
+				98F8D52E1418D34C001F9E1E /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98F8D5061418D34B001F9E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F8D51B1418D34B001F9E1E /* main.m in Sources */,
+				98F8D51F1418D34B001F9E1E /* City_CompassAppDelegate.m in Sources */,
+				98F8D5251418D34C001F9E1E /* FirstViewController.m in Sources */,
+				98F8D5281418D34C001F9E1E /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98F8D5171418D34B001F9E1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F8D5181418D34B001F9E1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98F8D5201418D34B001F9E1E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F8D5211418D34B001F9E1E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		98F8D5291418D34C001F9E1E /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F8D52A1418D34C001F9E1E /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		98F8D52C1418D34C001F9E1E /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F8D52D1418D34C001F9E1E /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98F8D52F1418D34C001F9E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98F8D5301418D34C001F9E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98F8D5321418D34C001F9E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "City Compass/City Compass-Prefix.pch";
+				INFOPLIST_FILE = "City Compass/City Compass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98F8D5331418D34C001F9E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "City Compass/City Compass-Prefix.pch";
+				INFOPLIST_FILE = "City Compass/City Compass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98F8D5041418D34A001F9E1E /* Build configuration list for PBXProject "City Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F8D52F1418D34C001F9E1E /* Debug */,
+				98F8D5301418D34C001F9E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F8D5311418D34C001F9E1E /* Build configuration list for PBXNativeTarget "City Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F8D5321418D34C001F9E1E /* Debug */,
+				98F8D5331418D34C001F9E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F8D5011418D34A001F9E1E /* Project object */;
+}
