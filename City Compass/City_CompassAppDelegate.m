@@ -18,6 +18,11 @@
     // Override point for customization after application launch.
     // Add the tab bar controller's current view as a subview of the window
     self.window.rootViewController = self.tabBarController;
+    [self.tabBarController setSelectedIndex:0];
+   
+    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:NO];
+    [UIApplication sharedApplication].keyWindow.frame=CGRectMake(0, 20, 320, 460); //move down 20px.
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

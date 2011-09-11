@@ -8,15 +8,20 @@
 
 #import "SecondViewController.h"
 
+#import "FRCurvedTextView.h"
+
 @implementation SecondViewController
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    ((FRCurvedTextView*)self.view).text = @"This application gives you the bearing to any destination in the world! Written by Fahd Rafi";
+    ((FRCurvedTextView*)self.view).textRadius = 130.0;
+    ((FRCurvedTextView*)self.view).textColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1.0];
+    
 }
-*/
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
