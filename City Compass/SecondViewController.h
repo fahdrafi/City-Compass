@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+#import "FRCurvedTextView.h"
+
+@interface SecondViewController : UIViewController {
+    FRCurvedTextView *firstCurvedLayer;
+    IBOutlet FRCurvedTextView *secondCurvedLayer;
+    IBOutlet FRCurvedTextView *thirdCurvedLayer;
+    IBOutlet FRCurvedTextView *fourthCurvedLayer;
+}
+
+@property (nonatomic, retain) IBOutlet FRCurvedTextView *firstCurvedLayer;
 
 @end

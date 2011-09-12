@@ -14,6 +14,8 @@
 	<array>
 		<string>icon.png</string>
 		<string>icon@2x.png</string>
+		<string>icon.png</string>
+		<string>icon@2x.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
 	<string>com.fahdrafi.${PRODUCT_NAME:rfc1034identifier}</string>
@@ -33,13 +35,13 @@
 	<true/>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
-	<key>UIStatusBarHidden</key>
-	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>magnetometer</string>
 		<string>location-services</string>
 	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

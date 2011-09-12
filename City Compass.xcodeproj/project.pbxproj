@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		983594CE141D1E7C00884B91 /* compassIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 983594CC141D1E7C00884B91 /* compassIcon@2x.png */; };
+		983594CF141D1E7C00884B91 /* compassIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 983594CD141D1E7C00884B91 /* compassIcon.png */; };
+		983594D3141D207C00884B91 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 983594D1141D207C00884B91 /* info.png */; };
+		983594D4141D207C00884B91 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 983594D2141D207C00884B91 /* info@2x.png */; };
 		9838A87A141AD91000750AD2 /* FRCurvedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9838A879141AD91000750AD2 /* FRCurvedTextView.m */; };
 		9838A87C141AD98700750AD2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9838A87B141AD98700750AD2 /* CoreText.framework */; };
+		984C1E5F141D830B00BA4551 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 984C1E5E141D830B00BA4551 /* icon.png */; };
+		984C1E61141D831C00BA4551 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 984C1E60141D831C00BA4551 /* icon@2x.png */; };
+		984C1E63141D832800BA4551 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 984C1E62141D832800BA4551 /* Default.png */; };
+		984C1E65141D837F00BA4551 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 984C1E64141D837F00BA4551 /* Default@2x.png */; };
 		987550E114195354002E2390 /* BSGoogleV2KmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 987550DE14195354002E2390 /* BSGoogleV2KmlParser.m */; };
 		987550E214195354002E2390 /* BSGoogleV3KmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 987550E014195354002E2390 /* BSGoogleV3KmlParser.m */; };
 		987550EB14195362002E2390 /* BSForwardGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 987550E414195362002E2390 /* BSForwardGeocoder.m */; };
@@ -17,10 +25,6 @@
 		987550EE14195362002E2390 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 987550EA14195362002E2390 /* NSString+URLEncode.m */; };
 		98C6D952141AECF60066D468 /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C6D951141AECF60066D468 /* needle.png */; };
 		98D6752B1419A73000A8C2C7 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D6752A1419A73000A8C2C7 /* compass.png */; };
-		98E8DE97141BE450006A4DF3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E8DE93141BE450006A4DF3 /* icon.png */; };
-		98E8DE98141BE450006A4DF3 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E8DE94141BE450006A4DF3 /* icon@2x.png */; };
-		98E8DE9C141BE4DF006A4DF3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E8DE9B141BE4DF006A4DF3 /* Default.png */; };
-		98E8DE9F141BE51E006A4DF3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E8DE9D141BE4E8006A4DF3 /* Default@2x.png */; };
 		98F8D50F1418D34B001F9E1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8D50E1418D34B001F9E1E /* UIKit.framework */; };
 		98F8D5111418D34B001F9E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8D5101418D34B001F9E1E /* Foundation.framework */; };
 		98F8D5131418D34B001F9E1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8D5121418D34B001F9E1E /* CoreGraphics.framework */; };
@@ -36,9 +40,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		983594CC141D1E7C00884B91 /* compassIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassIcon@2x.png"; sourceTree = "<group>"; };
+		983594CD141D1E7C00884B91 /* compassIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassIcon.png; sourceTree = "<group>"; };
+		983594D1141D207C00884B91 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		983594D2141D207C00884B91 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
 		9838A878141AD91000750AD2 /* FRCurvedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRCurvedTextView.h; sourceTree = "<group>"; };
 		9838A879141AD91000750AD2 /* FRCurvedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRCurvedTextView.m; sourceTree = "<group>"; };
 		9838A87B141AD98700750AD2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		984C1E5E141D830B00BA4551 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		984C1E60141D831C00BA4551 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		984C1E62141D832800BA4551 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		984C1E64141D837F00BA4551 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		987550DD14195354002E2390 /* BSGoogleV2KmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSGoogleV2KmlParser.h; sourceTree = "<group>"; };
 		987550DE14195354002E2390 /* BSGoogleV2KmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSGoogleV2KmlParser.m; sourceTree = "<group>"; };
 		987550DF14195354002E2390 /* BSGoogleV3KmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSGoogleV3KmlParser.h; sourceTree = "<group>"; };
@@ -53,10 +65,6 @@
 		987550EA14195362002E2390 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
 		98C6D951141AECF60066D468 /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
 		98D6752A1419A73000A8C2C7 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
-		98E8DE93141BE450006A4DF3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		98E8DE94141BE450006A4DF3 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		98E8DE9B141BE4DF006A4DF3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		98E8DE9D141BE4E8006A4DF3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		98F8D50A1418D34B001F9E1E /* City Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F8D50E1418D34B001F9E1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98F8D5101418D34B001F9E1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -132,12 +140,16 @@
 		98E8DE9A141BE472006A4DF3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				98E8DE9D141BE4E8006A4DF3 /* Default@2x.png */,
-				98E8DE9B141BE4DF006A4DF3 /* Default.png */,
+				984C1E62141D832800BA4551 /* Default.png */,
+				984C1E64141D837F00BA4551 /* Default@2x.png */,
+				984C1E60141D831C00BA4551 /* icon@2x.png */,
+				984C1E5E141D830B00BA4551 /* icon.png */,
+				983594D1141D207C00884B91 /* info.png */,
+				983594D2141D207C00884B91 /* info@2x.png */,
+				983594CC141D1E7C00884B91 /* compassIcon@2x.png */,
+				983594CD141D1E7C00884B91 /* compassIcon.png */,
 				98D6752A1419A73000A8C2C7 /* compass.png */,
 				98C6D951141AECF60066D468 /* needle.png */,
-				98E8DE93141BE450006A4DF3 /* icon.png */,
-				98E8DE94141BE450006A4DF3 /* icon@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -255,10 +267,14 @@
 				98F8D52E1418D34C001F9E1E /* SecondView.xib in Resources */,
 				98D6752B1419A73000A8C2C7 /* compass.png in Resources */,
 				98C6D952141AECF60066D468 /* needle.png in Resources */,
-				98E8DE97141BE450006A4DF3 /* icon.png in Resources */,
-				98E8DE98141BE450006A4DF3 /* icon@2x.png in Resources */,
-				98E8DE9C141BE4DF006A4DF3 /* Default.png in Resources */,
-				98E8DE9F141BE51E006A4DF3 /* Default@2x.png in Resources */,
+				983594CE141D1E7C00884B91 /* compassIcon@2x.png in Resources */,
+				983594CF141D1E7C00884B91 /* compassIcon.png in Resources */,
+				983594D3141D207C00884B91 /* info.png in Resources */,
+				983594D4141D207C00884B91 /* info@2x.png in Resources */,
+				984C1E5F141D830B00BA4551 /* icon.png in Resources */,
+				984C1E61141D831C00BA4551 /* icon@2x.png in Resources */,
+				984C1E63141D832800BA4551 /* Default.png in Resources */,
+				984C1E65141D837F00BA4551 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,8 +368,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Fahd Rafi";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fahd Rafi";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -362,7 +378,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "265A35D6-B000-4A5A-AD96-9C352848CBAB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "265A35D6-B000-4A5A-AD96-9C352848CBAB";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -385,13 +402,13 @@
 		98F8D5331418D34C001F9E1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Fahd Rafi";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "City Compass/City Compass-Prefix.pch";
 				INFOPLIST_FILE = "City Compass/City Compass-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "265A35D6-B000-4A5A-AD96-9C352848CBAB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

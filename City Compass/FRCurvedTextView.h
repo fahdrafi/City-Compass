@@ -27,14 +27,16 @@
     CGFloat             textRadius;
     NSString*           text;
     UIColor*            textColor;
-    NSString*           fontName;
+    NSString*           textFont;
+    CGFloat             textSize;
     
 }
 
-@property (nonatomic, retain) NSString* fontName;
+@property (nonatomic, retain) NSString* textFont;
 @property (nonatomic, retain) UIColor *textColor;
 @property (nonatomic, retain) NSString* text;
 @property (nonatomic) CGFloat textRadius;
+@property (nonatomic) CGFloat textSize;
 
 @end
 

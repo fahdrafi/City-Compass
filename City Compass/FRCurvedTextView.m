@@ -29,10 +29,16 @@
 }
 
 - (void)setupAttributedString {
-    CTFontRef fontRef = CTFontCreateWithName((CFStringRef)(self.fontName), 14.0f, NULL); //1
+    
+//    UIFont* fontRef = [UIFont fontWithName:self.textFont size:self.textSize];
+    
+    CTFontRef fontRef = CTFontCreateWithName((CFStringRef)(self.textFont), self.textSize, NULL); //1
+
     NSDictionary *attrDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
-                                    (id)fontRef, (NSString *)kCTFontAttributeName, nil];
+                                    (id)fontRef, kCTFontAttributeName, nil];
+    
     CFRelease(fontRef);
+    
     
     if (attString) [attString release];
     attString = [[NSAttributedString alloc] initWithString:self.text attributes:attrDictionary]; //2
@@ -66,7 +72,7 @@
     [attString release];
     [text release];
     [textColor release];
-    [fontName release];
+    [textFont release];
     [widthArray release];
     [angleArray release];
     CFRelease(_line);
@@ -242,7 +248,6 @@
     [text retain];
     
     setupRequired = YES;
-    
     [self setNeedsDisplay];
 }
 
@@ -250,6 +255,7 @@
     if (!textRadius) {
         textRadius = 100.0;
         setupRequired = YES;
+        [self setNeedsDisplay];
     }
     return textRadius;
 }
@@ -260,31 +266,43 @@
     [self setNeedsDisplay];
 }
 
-- (NSString*) fontName {
-    if (!fontName) {
-        self.fontName = [NSString stringWithString:@"Arial Rounded MT Bold"];
+- (CGFloat) textSize {
+    if (!textSize) {
+        textSize = 14.0f;
         setupRequired = YES;
+        [self setNeedsDisplay];
     }
-    return fontName;
+    return textSize;
 }
 
-- (void) setFontName:(NSString *)newFontName {
-    if (fontName) [fontName release];
-    fontName = newFontName;
-    [fontName retain];
+- (void) setTextSize:(CGFloat)newTextSize {
+    textSize = newTextSize;
+    setupRequired = YES;
+    [self setNeedsDisplay];
+}
+
+- (NSString*) textFont {
+    if (!textFont) {
+        self.textFont = [NSString stringWithString:@"Arial Rounded MT Bold"];
+        setupRequired = YES;
+        [self setNeedsDisplay];
+    }
+    return textFont;
+}
+
+- (void) setTextFont:(NSString *)newFontName {
+    if (textFont) [textFont release];
+    textFont = newFontName;
+    [textFont retain];
     setupRequired = YES;
     [self setNeedsDisplay];
 }
 
 - (NSAttributedString*) attString {
     if (!attString) {
-        CTFontRef fontRef = CTFontCreateWithName((CFStringRef)(self.fontName), 14.0f, NULL); //1
-        NSDictionary *attrDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
-                                        (id)fontRef, (NSString *)kCTFontAttributeName, nil];
-        CFRelease(fontRef);
-        
-        attString = [[NSAttributedString alloc] initWithString:self.text attributes:attrDictionary]; //2
+        [self setupAttributedString];
         setupRequired = YES;
+        [self setNeedsDisplay];
 
     }
     return attString;
@@ -294,6 +312,7 @@
     if (!text) {
         text = [[NSString alloc] initWithString:@""];
         setupRequired = YES;
+        [self setNeedsDisplay];
     }
     return text;
 }
